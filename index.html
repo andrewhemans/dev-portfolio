@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html >
 
 <head>
   <meta charset="utf-8">
@@ -10,12 +10,22 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.0/css/bulma.min.css">
   <link rel="stylesheet" type="text/css" href="css/app.css">
   <link href="https://fonts.googleapis.com/css?family=Cutive+Mono|Source+Code+Pro:400,600" rel="stylesheet">
+  <link rel="shortcut icon" href="images/vulcan.ico" type="image/x-icon">
+  <link rel="icon" href="images/vulcan.ico" type="image/x-icon">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 </head>
 
 <body>
   <nav class="navbar navbar is-fixed-top" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+    <div class="navbar-menu" id="navMenu">
+      <!-- navbar-start, navbar-end... -->
       <a class="navbar-item" href="#about">
         About
       </a>
@@ -24,12 +34,6 @@
       </a>
       <a class="navbar-item" href="#contact">
         Contact
-      </a>
-
-      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
       </a>
     </div>
   </nav>
@@ -61,7 +65,7 @@
               I'm constantly amazed by the magic that designers and developers create in our world. Together we are able to solve complex problems with seemingly simple solutions. When we build products with users in mind, I feel that anything is possible. We are the
               music makers, we are the dreamers of dreams<a href="https://en.wikipedia.org/wiki/Ode_(poem)">.</a>
             </p>
-            <div class="columns navigation is-hidden-mobile">
+            <!-- <div class="columns navigation is-hidden-mobile">
               <div class="column">
                 <a href="#one">Work</a>
               </div>
@@ -74,7 +78,7 @@
               <div class="column">
                 <a href="#graphicdesign">¯\_(ツ)_/¯</a>
               </div>
-            </div>
+            </div> -->
             <!--
             <div class="is-hidden-desktop has-text-centered arrow">
               <a href="#one"><p>↓</p></a>
@@ -87,17 +91,41 @@
   </section>
   <hr class="is-marginless">
 
-  <section id="one" class="hero is-fullheight">
+  <section id="projects" class="hero is-fullheight">
     <div class="hero-body is-vcentered">
       <div class="container">
-        <div class="columns is-vcentered">
+        <div class="columns is-multiline">
+          <div class="column is-one-quarter has-text-centered">
+            <a href="https://andrewhemans.github.io/hangman-game/"><img src="images/hang.png"></a>
+            <p>Star Trek Hangman Game</p>
+          </div>
+          <div class="column is-one-quarter has-text-centered">
+            <a href="https://andrewhemans.github.io/week-4-game/"><img src="images/rpg.png"></a>
+            <p>Simple Final Fantasy Game</p>
+          </div>
+          <div class="column is-one-quarter has-text-centered">
+            <a href="https://andrewhemans.github.io/trivia-game/"><img src="images/trivia.png"></a>
+            <p>Seinfeld Trivia</p>
+          </div>
+          <div class="column is-one-quarter has-text-centered">
+            <a href="https://andrewhemans.github.io/ajax-hw/"><img src="images/info.png"></a>
+            <p>Futurama Giphy Search</p>
+          </div>
+          <div class="column is-one-quarter has-text-centered">
+            <a href="https://andrewhemans.github.io/train-hw/"><img src="images/train.png"></a>
+            <p>Train Tracker</p>
+          </div>
+          <div class="column is-one-quarter has-text-centered">
+            <a href="https://coffee-meets-beagle.github.io/kibbles-and-hits/"><img src="images/beagle.png"></a>
+            <p>Coffee Meets Beagle</p>
+          </div>
         </div>
       </div>
     </div>
   </section>
   <hr class="is-marginless">
 
-  <section id="two" class="hero is-fullheight">
+  <!-- <section id="two" class="hero is-fullheight">
     <div class="hero-body is-vcentered">
       <div class="container">
         <div class="columns is-vcentered">
@@ -105,7 +133,7 @@
       </div>
     </div>
   </section>
-  <hr class="is-marginless">
+  <hr class="is-marginless"> -->
 
   <section id="contact" class="hero is-fullheight contact">
     <div class="hero-body is-vcentered has-text-centered">

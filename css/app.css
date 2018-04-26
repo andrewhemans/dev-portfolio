@@ -108,6 +108,11 @@ hr {
   padding-bottom: 10px;
   z-index: 1000;
   display: none;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .scroll:hover {
@@ -192,6 +197,24 @@ a {
   -o-transition: all 0.5s ease-in-out;
   -ms-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
+}
+
+.navbar-item {
+  color: red;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+a.navbar-item:hover {
+  color: #363636;
+}
+
+.navbar {
+    background-color: #fff8fa;
+    box-shadow: 0 2px 0 0 #ffacc3;
 }
 
 .navigation {
