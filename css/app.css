@@ -1,0 +1,211 @@
+body,
+button,
+input,
+select,
+textarea {
+  font-family: 'Source Code Pro', monospace;
+  letter-spacing: -.5px;
+}
+
+.title {
+  font-weight: 600;
+  /*color: #ffacc3;*/
+}
+
+html {
+  font-size: 16px;
+}
+
+hr {
+  background-color: #ffacc3;
+}
+
+.about {
+  background-color: #fff8fa;
+}
+
+.resume {
+  background-color: #fff8fa;
+}
+
+.resume-column {
+  padding: 0 50px 0 50px;
+}
+
+.resume h1 {
+  color: red;
+  margin-bottom: 50px;
+}
+
+@media screen and (max-width: 768px) {
+  .resume-column {
+        padding: 1rem .75rem;
+  }
+  .resume h1 {
+    margin-bottom: 0;
+  }
+}
+
+.shadow {
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+}
+
+.plain-title {
+  margin: 0 0 30px 0;
+}
+
+.resume-title {
+  margin-top: 30px;
+}
+
+.bullet {
+  color: red;
+}
+
+.margin-bottom {
+  margin-bottom: 50px;
+}
+
+.margin-top {
+  margin-top: 50px;
+}
+
+.company {
+  font-weight: 600;
+  font-style: italic;
+  font-size: 1.25rem;
+  color: red;
+}
+
+.job-title {
+  font-weight: 600;
+  color: red;
+}
+
+.job-desc {
+  /*color: red;*/
+}
+
+.term {
+  font-weight: 600;
+  color: red;
+}
+
+.back-link {
+  position: fixed;
+  z-index: 1000;
+  padding-left: 20px;
+  padding-top: 10px;
+
+}
+
+.scroll {
+  width: 90px;
+  position: fixed;
+  right: 10px;
+  bottom: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  z-index: 1000;
+  display: none;
+}
+
+.scroll:hover {
+  background-color: #fff8fa;
+}
+
+.scroll-link {
+}
+
+.scroll-link:hover {
+  color: red;
+}
+
+.up-arrow {
+  font-size: 1.25rem;
+  color: red;
+}
+
+.promo-img {
+  max-height: 90vh;
+  width: auto;
+}
+
+.mobile-img {
+  max-height: 90vh;
+  width: auto!important;
+}
+
+.flex-image {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.crop {
+  padding-top: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+#hemans-brewing {
+  background-image: url("../images/pack_2.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+#mdm {
+  background-image: url("../images/mdm-album.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+/*.crop img {
+  max-width: initial;
+}*/
+
+
+.right-img {
+  margin-right: -50px;
+  float: right;
+}
+
+.left-img {
+  margin-left: -400px;
+  float: left;
+  margin-right: 3%;
+}
+
+.image-div {
+  height: 94vh;
+  width: 90%!important;
+}
+
+body {
+  line-height: 1.75;
+}
+
+a {
+  color: red;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.navigation {
+  padding-top: 20px;
+}
+
+.arrow {
+  padding-top: 10px;
+  font-size: 24px;
+}
+
+
+@media screen and (max-width: 768px) {
+.title.is-2 {
+  font-size: 2rem;
+}
+}
